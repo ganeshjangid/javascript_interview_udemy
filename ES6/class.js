@@ -1,4 +1,14 @@
 
+class TestComm{
+    constructor(name){
+        this.name=name;
+    }
+
+    info(){
+        console.log(`Hello ${this.name}`);
+    }
+}
+
 class CreateBuildingConst {
     
     constructor(name, stories, address){
@@ -6,7 +16,7 @@ class CreateBuildingConst {
         this.stories = stories;
         this.address = address;
         this.guest=[];
-    };
+    }
 
     info() {
             console.log(`
@@ -22,10 +32,10 @@ class CreateBuildingConst {
         return this.stories > 10;
     }
 
-};
+}
 
 
-const ambaniConst = new CreateBuildingConst('KILL BILL part4', '4', 'Nasik4');
+const ambaniConst = new CreateBuildingConst('KILL BILL part4', '20', 'Nasik4');
 ambaniConst.info(); 
 
 

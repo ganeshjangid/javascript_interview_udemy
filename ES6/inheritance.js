@@ -42,3 +42,19 @@ console.log('Kaju',kaju);
 kaju.info()
 
 
+
+class Test extends CreateBuildingConst {
+    constructor(name,stories,INN){
+        super(name,stories);
+        this.test1=INN;
+    }
+    info(){
+        super.info();
+        console.log(`This is dsfasdfsd class method ${this.test1}`);
+        
+    }
+}
+
+const ts=new Test('Come','Sham','INN','UU');
+console.log(ts.info());
+

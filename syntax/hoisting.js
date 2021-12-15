@@ -1,10 +1,6 @@
 {
-   
     zoo = {};
-
     console.log(zoo);
-
-    
     var zoo;
 }
 
@@ -20,3 +16,21 @@ var b=4;
 var c=3;
 
 console.log(result);
+
+
+
+// Again Test
+
+test="ganesh";
+
+console.log(test);
+
+
+test1={};
+console.log(test1);
+
+let test1="ganesg";
+
+
+
+

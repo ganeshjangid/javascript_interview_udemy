@@ -9,6 +9,14 @@ const building={
     }
 };
 
+const tst={
+    name:"ganesh",
+    info:function(){
+        console.log(`this is ${this.name}`)
+    }
+}
+tst.info();
+
 building.info();
 
 const details=['KILL BILL part2','2','Dahisar'];

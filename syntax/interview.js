@@ -16,3 +16,12 @@ let x="Red";
 }   
 
 console.log("4:",x); //red
+
+
+if(true){
+    var b="test"; // use let and check
+    console.log(b);
+}
+
+
+console.log(b); 
