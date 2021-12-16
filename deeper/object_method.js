@@ -21,8 +21,16 @@ const dest2={
     joyce1:69
 };
 
+const dest3={
+    name:"ganesh",
+    age:28
+}
 
 
-Object.assign(dest,source,dest2);
+
+//Object.assign(dest,source,dest2);
+Object.assign(dest,dest3);
 
 console.log(dest);
+
+

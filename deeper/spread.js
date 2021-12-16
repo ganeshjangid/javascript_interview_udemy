@@ -36,6 +36,19 @@ const sumarr=[10,20,30];
 
 console.log(sumXYZ(...sumarr));
 
+const test={
+    name:"ganesh",
+    age:25
+}
+
+const test1={
+    ...test,
+    address:"Malad"
+}
+
+console.log(test1);
+
+//console.log(Object.assign(test,test1));
 
 
 

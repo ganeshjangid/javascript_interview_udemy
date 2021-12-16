@@ -12,7 +12,7 @@ if ('') {
 }
 
 if ({}) {
-    console.log("hii");
+    console.log("hiii");
     
 }
 

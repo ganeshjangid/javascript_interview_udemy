@@ -25,3 +25,10 @@ console.log(store);
 
 
 
+let a={};
+
+a.name="Ganesh";
+
+
+console.log(a);
+
